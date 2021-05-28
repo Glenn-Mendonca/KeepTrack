@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="app.js"></script>
+    <title>KeepTrack</title>
+</head>
+<body>
+    <h1>Welcome to KeepTrack</h1><br>
+    <header>
+        <h2>Wanna test your short term memory ?</h2><br>
+        <h3>This game is all about remebering numbers in specific order.</h3><br>
+        <p>
+            <h4>How to Play?</h4>
+            <ul>
+                <li>
+                    Select any number from the grid of 0 to 9 numbers.
+                </li>
+                <li>
+                    Computer chooses the second number and so on.
+                </li>
+                <li>
+                    Each turn computer and user, 
+                    repeat the whole number sequence from the beginning and
+                    add a new number is added to the sequence. 
+                </li>
+            </ul>
+            <p> &emsp; <h4>Note:</h4> 
+                &emsp;&emsp;&emsp; 
+                Entering incorrect sequence ends the game.
+                <br>&emsp;&emsp;&emsp; 
+                Every new number should be one between 1 and 9.
+            </p>
+        </p>
+    </header>
+    <div class="playground">
+        <div class="display">       
+        </div>
+        <div class="numpad" >
+            <div class="row1">
+                <button id="b7" onclick="input(7,id)">7</button>
+                <button id="b8" onclick="input(8,id)">8</button>
+                <button id="b9" onclick="input(9,id)">9</button>
+            </div>
+            <div class="row2">
+                <button id="b4" onclick="input(4,id)">4</button>
+                <button id="b5" onclick="input(5,id)">5</button>
+                <button id="b6" onclick="input(6,id)">6</button>
+            </div>
+            <div class="row3">
+                <button id="b1" onclick="input(1,id)">1</button>
+                <button id="b2" onclick="input(2,id)">2</button>
+                <button id="b3" onclick="input(3,id)">3</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
